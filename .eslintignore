@@ -1,0 +1,8 @@
+node_modules
+public
+build
+src/features/default/reportWebVitals.ts
+*.json
+docs
+.vscode
+.idea

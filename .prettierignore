@@ -1,0 +1,7 @@
+build
+node_modules
+public
+docs
+.vscode
+.idea
+storybook-static

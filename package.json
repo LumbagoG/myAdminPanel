@@ -1,0 +1,104 @@
+{
+    "name": "kk2-admin-react",
+    "version": "0.1.0",
+    "private": false,
+    "dependencies": {
+        "@pankod/refine-chakra-ui": "^1.0.0",
+        "@pankod/refine-cli": "^1.13.4",
+        "@pankod/refine-core": "^3.18.0",
+        "@pankod/refine-inferencer": "^1.2.0",
+        "@pankod/refine-kbar": "^0.10.2",
+        "@pankod/refine-react-hook-form": "^3.37.2",
+        "@pankod/refine-react-router-v6": "^3.18.0",
+        "@pankod/refine-react-table": "^4.7.2",
+        "@pankod/refine-simple-rest": "^3.18.0",
+        "@testing-library/jest-dom": "^5.12.0",
+        "@testing-library/react": "^11.2.6",
+        "@testing-library/user-event": "^12.8.3",
+        "@types/jest": "^26.0.23",
+        "axios": "^0.27.2",
+        "classnames": "^2.3.2",
+        "dotenv": "^16.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.7.1",
+        "react-scripts": "^5.0.0",
+        "react-transition-group": "^4.4.5",
+        "styled-components": "^5.3.6",
+        "web-vitals": "^1.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.20.10",
+        "@types/react": "^18.0.15",
+        "@types/react-dom": "^18.0.6",
+        "@typescript-eslint/eslint-plugin": "^5.46.1",
+        "@typescript-eslint/parser": "^5.46.1",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-named-exports-order": "^0.0.2",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.30.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard-with-typescript": "^24.0.0",
+        "eslint-import-resolver-typescript": "^3.5.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsdoc": "^39.3.6",
+        "eslint-plugin-n": "^15.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.31.11",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-storybook": "^0.6.6",
+        "node-sass": "^7.0.3",
+        "prettier": "^2.7.1",
+        "prop-types": "^15.8.1",
+        "sass-loader": "^13.0.2",
+        "source-map-explorer": "^2.5.3",
+        "typescript": "^4.9.4",
+        "web-vitals": "^3.0.2"
+    },
+    "scripts": {
+        "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+        "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+        "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+        "start": "set 'NODE_ENV=develop' && set PORT=4001 && refine start && lint && lint:fix && format",
+        "build": "refine build",
+        "build:start": "set 'NODE_ENV=develop' && set PORT=4002 && serve -s build",
+        "analyze": "set PORT=4003 && source-map-explorer 'build/static/js/*.js'",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "refine": "refine"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ],
+        "overrides": [
+            {
+                "files": [
+                    "**/*.stories.*"
+                ],
+                "rules": {
+                    "import/no-anonymous-default-export": "off"
+                }
+            }
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all",
+            "ie 11",
+            "ie 10"
+        ],
+        "development": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all",
+            "ie 11",
+            "ie 10"
+        ]
+    }
+}

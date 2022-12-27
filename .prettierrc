@@ -1,0 +1,8 @@
+{
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+  "max-len": ["error", 140, 4],
+  "tabWidth": 4,
+  "useTabs": false
+}
