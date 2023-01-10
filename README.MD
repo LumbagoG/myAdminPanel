@@ -1,55 +1,30 @@
-# kk2-admin-react
+# Админ панель на react 
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img src="https://refine.ams3.cdn.digitaloceanspaces.com/refine_logo.png"  align="center" />
-    </a>
-</div>
-<br/>
+## О приложении
+Это приложение админ панели на react
 
-This [refine](https://github.com/pankod/refine) project was generated
-with [superplate](https://github.com/pankod/refine).
+## Доступные скрипты
 
-## Getting Started
-
-**refine** is a React-based framework for building data-intensive applications in no time ✨
-
-Refine offers lots of out-of-the box functionality for rapid development, without compromising extreme customizability.
-Use-cases include, but are not limited to admin panels, B2B applications and dashboards.
-
-## Available Scripts
-
-### Running the development server.
-
-```bash
-    npm run dev
-```
-
-### Building for production.
-
-```bash
-    npm run build
-```
-
-### Running the production server.
+### Запуск приложения в режиме разработки
 
 ```bash
     npm run start
 ```
 
-## Learn More
+### Запуск сборки приложения
 
-To learn more about **refine**, please check out the [Documentation](https://refine.dev/docs)
+```bash
+    npm run build
+```
 
-- **REST Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Chakra UI** [Docs](https://refine.dev/docs/)
-- **Custom AppLayout** [Docs](https://refine.dev/docs/ui-frameworks/chakra-ui/customization/chakra-ui-custom-layout/)
-- **Chakra UI Light/Dark Mode** [Docs](#)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-- **Example Pages** [Docs](https://refine.dev/docs/guides-and-concepts/custom-pages/)
-- **KBar Command Palette** [Docs](https://github.com/pankod/refine/tree/next/examples/commandPalette/kbar)
+### Запуск собранной версии приложения
 
-## License
+```bash
+    npm run build:start
+```
 
-MIT
+### Запуск анализатора бандла
+
+```bash
+    npm run analyze
+```
