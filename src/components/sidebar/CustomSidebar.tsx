@@ -124,7 +124,7 @@ export const CustomSidebar: typeof DefaultSidebar = ({ render }) => {
                                         leftIcon={
                                             icon ?? (defaultNavIcon as any)
                                         }
-                                        
+
                                         rightIcon={
                                             isParent ? (
                                                 <AccordionIcon />
